@@ -1,0 +1,194 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+/**navbar-ს ეკუთვნის ფოტოსთან ერთად და ღილაკები **/
+#FlexboxHeader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/** navbar მარტო ღილაკები **/
+#HeaderButtonBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row;
+  width: 90%;
+  margin-left: 10%;
+  padding-top: 6vh;
+}
+/** navbar მარტო ღილაკების div გაცენტვრა **/
+#HeaderButtonBox > div {
+  text-align: center;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+/** navbar მარტო ღილაკების div გაცენტვრა და ღილაკის დიზაინი **/
+#HeaderButtonBox > div > a > button {
+  border: none;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
+}
+/** ღილაკების ჰოვერი **/
+#HeaderButtonBox > div > a > button:hover {
+  color: grey;
+}
+
+/**პირველი ფოტო**/
+#ModelGirl {
+  width: 100%;
+}
+/**ტექსტი პირველი ფოტოს ზემოდან**/
+#TextOverModelGirl {
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 15pt;
+  position: absolute;
+  top: 30vh;
+}
+/**პოსტის ღილაკის div**/
+#PostButton {
+  width: 100%;
+}
+/** პოსტის ღილაკის დიზაინი**/
+#PostButton > a > button {
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(255, 125, 7);
+  font-size: 12pt;
+  border: none;
+}
+#PostButton > a > button:hover {
+  background-color: rgb(24, 28, 40);
+  color: white;
+}
+/** მთავარი ნაწილი **/
+#FlexboxMain {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 80%;
+  height: 95vh;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/** მთავარი ნაწილის div **/
+#FlexboxMain > div {
+  width: 48%;
+  height: 95vh;
+}
+/** მთავარი ნაწილის პარაგრაფი**/
+#FlexboxMain > div > p {
+  color: grey;
+  font-size: 10pt;
+}
+/** მთავარი ნაწილის ფოტო**/
+#FlexboxMain > div > div > img {
+  width: 100%;
+}
+/** მთავარი ნაწილის ღილაკის დიზაინი**/
+#FlexboxMain > div > div > a > button {
+  border: none;
+  background-color: white;
+  color: rgb(255, 125, 7);
+}
+#FlexboxMain > div > div > a > button:hover {
+  background-color: rgb(24, 28, 40);
+  color: white;
+}
+
+/** ჩატვირთვის ღილაკის პოზიციონირება**/
+#LoadMoreButton {
+  width: 100%;
+  height: 10vh;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 15vh;
+}
+/** ჩატვირთვის ღილაკის დიზაინი**/
+#LoadMoreButton > a > button {
+  background-color: rgb(255, 125, 7);
+  color: white;
+  border: none;
+  width: 30vh;
+  height: 10vh;
+}
+#LoadMoreButton > a > button:hover {
+  background-color: rgb(24, 28, 40);
+  color: white;
+  border: none;
+  width: 30vh;
+  height: 10vh;
+}
+/** ველაზე დიდი სძღვარი**/
+#ThickBorder {
+  width: 100%;
+  height: 25vh;
+  background-color: rgb(24, 28, 40);
+  margin-bottom: 10vh;
+}
+/**Footer-ის ჰორიზონტალური განლაგება სადაც სხვა ცხრილებია მოთავსებული**/
+#FlexFooter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 80%;
+  height: 40vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5vh;
+}
+/**Footer-ის ვერტიკალური განლაგება **/
+.flexboxFooter {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-flow: column;
+}
+/**Footer-ის ვერტიკალური განლაგება **/
+.flexboxFooter > a > button {
+  border: none;
+  color: grey;
+
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.flexboxFooter > a > button:hover {
+  background-color: rgb(24, 28, 40);
+  color: white;
+}
+/**Footer-ის ჰორიზონტალური განლაგება საკრედიტო ბარათის ფოტოებით **/
+#flexboxFooterCreditCards {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row;
+}
+/**ღილაკად გცევა და მისი დიზაინი **/
+#flexboxFooterCreditCards > a > button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  margin-left: 1%;
+}
+/**CopyRight**/
+#CopyRight {
+  width: 10%;
+  margin-left: 70%;
+  margin-right: 10%;
+}
